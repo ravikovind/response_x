@@ -2,6 +2,7 @@
 
 [![pub package](https://img.shields.io/pub/v/response_x.svg)](https://pub.dartlang.org/packages/response_x)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 library for exchanging response [JSON](https://en.wikipedia.org/wiki/JSON) between server and client. it can be a useful tool for standardizing the way that a server communicates with its clients.
 
 # Installing
@@ -53,6 +54,12 @@ print(response.statusCode); // 200
 print(response.message); // OK
 print(response.data); // null
 print(response.success); // true
+
+final response = Response.failure();
+print(response.statusCode); // 400
+print(response.message); // failure
+print(response.data); // null
+print(response.success); // false
 ```
 
 ### 5. Example

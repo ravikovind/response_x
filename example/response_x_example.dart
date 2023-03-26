@@ -9,7 +9,24 @@ void main() {
     });
     print(json);
   }
-  final errorCodes = <int>[400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 500, 501, 502, 503, 504, 505];
+  final errorCodes = <int>[
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    500,
+    501,
+    502,
+    503,
+    504,
+    505
+  ];
 
   for (var code in errorCodes) {
     final response = Response.status(code);

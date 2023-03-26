@@ -2,7 +2,7 @@ import 'package:equatable/equatable.dart';
 
 /// [Response] is class that represents a server response. class can be a useful tool for standardizing the way that a server communicates with its clients.
 class Response extends Equatable {
-  /// [Response] constructor. it takes [success], [statusCode], [message] and [data] as parameters. 
+  /// [Response] constructor. it takes [success], [statusCode], [message] and [data] as parameters.
   const Response({
     required this.success,
     required this.statusCode,

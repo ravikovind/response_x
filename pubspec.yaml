@@ -1,6 +1,6 @@
 name: response_x
-description: library for exchanging response between server and client. it can be a useful tool for standardizing the way that a server communicates with its clients.
-version: 1.0.1
+description: library for exchanging response[json] between server and client. it can be a useful tool for standardizing the way that a server communicates with its clients.
+version: 1.0.2
 homepage: https://github.com/ravikovind/response_x
 issue_tracker: https://github.com/ravikovind/response_x/issues
 

@@ -1,0 +1,16 @@
+name: example
+description: example for response_x.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  http: ^0.13.5
+  response_x: 
+   path: ../
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
